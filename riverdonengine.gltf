@@ -1,0 +1,136 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.8.19",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Text",
+            "rotation" : [
+                0.4828147888183594,
+                0.5169380903244019,
+                -0.5108243227005005,
+                0.48859328031539917
+            ],
+            "scale" : [
+                0.6271741390228271,
+                0.9989908933639526,
+                0.6257011294364929
+            ],
+            "translation" : [
+                0,
+                7.724712371826172,
+                0
+            ]
+        },
+        {
+            "name" : "Empty",
+            "rotation" : [
+                0.4707818925380707,
+                0.5308135151863098,
+                -0.5015445947647095,
+                0.4950297772884369
+            ],
+            "scale" : [
+                2.1102359294891357,
+                1.0193437337875366,
+                2.1040968894958496
+            ],
+            "translation" : [
+                -0.8477985858917236,
+                2.213329792022705,
+                -0.3522047996520996
+            ]
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Text",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 40716,
+            "max" : [
+                21.059999465942383,
+                0,
+                14.229999542236328
+            ],
+            "min" : [
+                0,
+                0,
+                -0.6820000410079956
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 40716,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 40716,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 89433,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 488592,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 488592,
+            "byteOffset" : 488592
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 325728,
+            "byteOffset" : 977184
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 178866,
+            "byteOffset" : 1302912
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1481780,
+            "uri" : "riverdonengine.bin"
+        }
+    ]
+}
